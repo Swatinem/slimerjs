@@ -96,8 +96,6 @@ var slLauncher = {
                                     'sandboxPrototype': {},
                                     'wantXrays': true
                                 });
-            let src = slUtils.readChromeFile("resource://slimerjs/coffee-script/extras/coffee-script.js");
-            Cu.evalInSandbox(src, coffeeScriptSandbox, 'ECMAv5', 'coffee-scripts.js', 1);
         }
 
         // prepare the environment where the main script will be executed in

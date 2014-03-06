@@ -1,7 +1,7 @@
 
 if (slimer.hasFeature('coffeescript')) {
     // load the coffee-script module so it can register .coffee extensions
-    require('@coffee-script/coffee-script');
+    require('@coffee-script/register');
 }
 
 var fs = require('fs');
